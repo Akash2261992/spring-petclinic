@@ -11,4 +11,4 @@ stage('build'){
 steps{
 sh 'mvn clean package'
 junit '**/target/surfire-reports/Test-*.xml'}}}
-}
+
